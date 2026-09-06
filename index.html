@@ -8,16 +8,62 @@
     </head>
 
     <body>
-        <h1>Odin Recipes</h1>
-        <ul>
-            <li><a href="recipes/posho.html">Posho Recipe</a></li>
-            <li><a href="recipes/matooke.html">Matooke Recipe</a></li>
-            <li><a href="recipes/biryani.html">Biryani Recipe</a></li>
-        </ul>
-        <hr />
-        <small>
-            © 2026 Odin Recipes. All rights reserved. <br />Designed by Muyivu
-            Shafiq
-        </small>
+
+        <header class="header">
+            <nav class="recipe-nav" aria-label="Recipe navigation">
+                <a href="index.html" aria-current="page">Home</a>
+                <a href="recipes/posho.html">Posho</a>
+                <a href="recipes/matooke.html">Matooke</a>
+                <a href="recipes/biryani.html">Biryani</a>
+            </nav>
+            <h1>Odin Recipes</h1>
+        </header>
+
+        <main>
+            <p class="home-intro">
+                Welcome to Odin Recipes, a small collection of comforting meals
+                worth gathering around. From Ugandan favorites to fragrant biryani,
+                discover a dish to bring a little warmth to your table.
+            </p>
+
+            <section class="recipe-cards" aria-label="Explore our recipes">
+                <article class="recipe-card">
+                    <img src="recipes/recipe-images/posho-recipe.jpg"
+                        alt="Posho served with fish and greens" />
+                    <div class="recipe-card-content">
+                        <h2><a href="recipes/posho.html">Posho</a></h2>
+                        <p>Soft, hearty posho with spiced fish, fresh greens, and a bright squ...</p>
+                        <a class="recipe-link" href="recipes/posho.html" aria-label="See full recipe for Posho">See full recipe</a>
+                    </div>
+                </article>
+
+                <article class="recipe-card">
+                    <img src="recipes/recipe-images/matooke-recipe.jpg"
+                        alt="A serving of cooked matooke" loading="lazy" />
+                    <div class="recipe-card-content">
+                        <h2><a href="recipes/matooke.html">Matooke</a></h2>
+                        <p>A Ugandan favorite: tender green bananas cooked in a rich, savory s...</p>
+                        <a class="recipe-link" href="recipes/matooke.html" aria-label="See full recipe for Matooke">See full recipe</a>
+                    </div>
+                </article>
+
+                <article class="recipe-card">
+                    <img src="recipes/recipe-images/biryani-recipe.jpg"
+                        alt="A serving of spiced biryani rice" loading="lazy" />
+                    <div class="recipe-card-content">
+                        <h2><a href="recipes/biryani.html">Biryani</a></h2>
+                        <p>Fragrant basmati rice layered with tender meat, warming spices, and...</p>
+                        <a class="recipe-link" href="recipes/biryani.html" aria-label="See full recipe for Biryani">See full recipe</a>
+                    </div>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <small>
+                © 2026 Odin Recipes. All rights reserved. <br />Designed by Muyivu Shafiq
+            </small>
+        </footer>
+
     </body>
 </html>
